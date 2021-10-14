@@ -1,0 +1,85 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(banguela.jpg);
+    background-size: cover;
+}
+
+.loginbox {
+    width: 300px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.loginbox h1{
+    float: left;
+    border-bottom: 5px solid #e4fc8b;
+    margin-bottom: 80px;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+.textbox input{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+}
+
+.textbox { 
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #e4fc8b;
+    color: white;
+}
+
+.textbox i{
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0;
+
+}
+
+.button{
+    width: 100%;
+    background: none;
+    border: 1px solid #e4fc8b;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 45px 0;
+    font-weight: bold;
+}
+
+.button:hover{
+    width: 100%;
+    background: #e4fc8b;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 45px 0;
+    font-weight: bold;
+}
